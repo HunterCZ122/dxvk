@@ -455,6 +455,10 @@ namespace dxvk {
     { R"(\\FantasyGrounds\.exe$)", {{
       { "d3d9.noExplicitFrontBuffer",       "True" },
     }} },
+    /* Mashed */
+    { R"(\\MASHED\.exe$)", {{
+      { "d3d9.maxFrameRate",                "60" },
+    }} },
   }};
 
 
