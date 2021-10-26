@@ -458,6 +458,7 @@ namespace dxvk {
     /* Mashed */
     { R"(\\MASHED\.exe$)", {{
       { "d3d9.maxFrameRate",                "60" },
+      { "d3d9.presentInterval",             "0"  },
     }} },
   }};
 
